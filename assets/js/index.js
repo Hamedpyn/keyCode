@@ -17,6 +17,8 @@ let
 
 // On key down:      
 document.addEventListener('keydown', item => {
+    // Prevent the browser's default action 
+    item.preventDefault()
     // Hide pressText           
     pressText.classList = 'hide';
     // Show container           
