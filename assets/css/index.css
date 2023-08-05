@@ -19,7 +19,6 @@ body {
 }
 
 #pressText {
-    display: none;
     margin-top: 300px;
     letter-spacing: 1.7px;
 }
@@ -36,6 +35,10 @@ body {
     align-items: center;
     flex-direction: column;
     margin-top: 80px;
+}
+
+.hide{
+    display: none !important;
 }
 
 #container h1 {
