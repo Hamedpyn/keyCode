@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: poppins;
+    font-weight: 300;
+    user-select: none;
+}
+
+body {
+    background-color: #fff;
+}
+
+:is(#pressText, #event) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#pressText {
+    display: none;
+    margin-top: 300px;
+    letter-spacing: 1.7px;
+}
+
+#pressText h3 {
+    font-size: 30px;
+    color: #000000b0;
+    user-select: none;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 80px;
+}
+
+#container h1 {
+    font-size: 300px;
+    color: #000000b0;
+}
+
+.events {
+    margin-right: 20px;
+    transition: all 0.5s;
+}
+
+.keyEvents {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title span {
+    font-size: 14px;
+    font-weight: 700;
+    color: #000000c9;
+}
+
+:is(.title , .details){
+    width: 330px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    background-color: #cff1ff94;
+}
+
+.details span {
+    font-size: 30px;
+    font-weight: 400;
+    color: #000000b0;
+}
+
+.details {
+    height: 60px;
+}
+
+.events:hover {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    transform: translateY(-10px);
+}
